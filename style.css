@@ -1,0 +1,570 @@
+@font-face {
+  font-family: mave;
+  src: url(./assets/fonts/MavenPro-Regular.ttf);
+}
+@font-face {
+  font-family: mon;
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: pop;
+  src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: pop;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+/*Started Navbar*/
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 40px 100px;
+}
+.navbar-container > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  margin-left: 135px;
+}
+.navbar-container > h1 {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: mon;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.navbar-container > ul > li {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: pop;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.shop-img {
+  margin-left: 133px;
+  cursor: pointer;
+}
+.search-img {
+  margin-left: 80px;
+  cursor: pointer;
+}
+/*Hover*/
+.navbar-container > h1:hover {
+  color: cadetblue;
+}
+.navbar-container > ul > li:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  transition: all linear 1s;
+}
+/*Ends Navbar*/
+
+/*Started Header*/
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header_titles {
+  padding: 100px 100px;
+}
+.header-back-img {
+  padding: 60px 100px;
+}
+/*Header Titles Styles*/
+.header_titles > span {
+  color: #f7515c;
+  font-family: pop;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header_titles > h1 {
+  color: #282a30;
+  font-family: mon;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 1200;
+  line-height: normal;
+  width: 660px;
+  margin-top: 62px;
+  cursor: pointer;
+}
+.header_btns {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.head-btn {
+  color: black;
+  font-family: mon;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 207px;
+  height: 78px;
+  flex-shrink: 0;
+  background: white;
+  border: none;
+  margin-top: 42px;
+  cursor: pointer;
+}
+.head-btn-ends {
+  color: black;
+  font-family: mon;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 207px;
+  height: 78px;
+  flex-shrink: 0;
+  background-color: white;
+  border: none;
+  margin-top: 42px;
+  cursor: pointer;
+}
+.header_titles {
+  margin-top: -80px;
+}
+.header-back-img > img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*Header hover*/
+.header-back-img > img:hover {
+  box-shadow: 8px 8px 5px 10px rgb(138, 50, 50);
+  transition: all linear 2s;
+}
+.header_titles > span:hover {
+  color: aqua;
+  transition: all linear 0.5s;
+}
+.header_titles > h1:hover {
+  color: darkblue;
+  transition: all linear 0.5s;
+}
+.head-btn:hover {
+  background-color: black;
+  transition: all linear 2s;
+  color: white;
+}
+.head-btn-ends:hover {
+  background-color: black;
+  color: white;
+  transition: all linear 2s;
+}
+/*About Header In*/
+.about {
+  display: flex;
+  align-items: center;
+}
+.about-img {
+  padding: 120px 100px;
+}
+.about-infos > span {
+  color: #282a30;
+  font-family: mon;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+.about-infos > h1 {
+  font-family: mon;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.about-infos > p {
+  color: rgba(40, 42, 48, 0.5);
+  font-family: pop;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about-infos > button {
+  color: black;
+  font-family: mon;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: white;
+  width: 230px;
+  height: 78px;
+  flex-shrink: 0;
+  border: none;
+  margin-top: 74px;
+}
+/*About Hover*/
+.about-infos > button:hover {
+  background-color: black;
+  color: white;
+  transition: all linear 2s;
+}
+/*Value Form */
+
+.cards {
+  background-image: url(./assets/images/Rectangle\ 9.png);
+  width: 1009px;
+  height: 577px;
+  flex-shrink: 0;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.value-titles {
+  padding: 100px 95px;
+}
+.value-titles > p {
+  color: #000;
+  font-family: mon;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.value-titles > h1 {
+  font-family: mon;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.card-items {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 20px 4px 100px 0px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 160px;
+  flex-shrink: 0;
+  gap: 20px;
+  padding: 14px 44px;
+}
+.title-num > h1 {
+  color: #f7515c;
+  font-family: pop;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 51px;
+  height: 51px;
+  flex-shrink: 0;
+  fill: rgba(247, 81, 92, 0.05);
+  cursor: pointer;
+}
+.title-text > span {
+  color: #282a30;
+  font-family: mon;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.title-text > p {
+  color: rgba(40, 42, 48, 0.4);
+  font-family: pop;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.card-items {
+  margin-top: 80px;
+}
+.card-items:hover {
+  background-color: bisque;
+  transition: all linear 2s;
+}
+/*Ennds Value Form Qismi*/
+.section-container {
+  padding: 100px 95px;
+}
+.section-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-click {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.text-sections > span {
+  color: #282a30;
+  font-family: mon;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.text-sections > h1 {
+  font-family: mon;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.text-sections > span:hover {
+  color: aqua;
+}
+.text-sections > h1:hover {
+  color: blue;
+}
+.cards-items-sec > h1 {
+  margin-left: 110px;
+  margin-top: -80px;
+  color: #282a30;
+  font-family: mon;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.cards-items-sec > p {
+  margin-left: 170px;
+  margin-top: -10px;
+  color: rgba(40, 42, 48, 0.3);
+  font-family: mon;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.section-cards {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  width: 1400px;
+}
+.section-cards::-webkit-scrollbar {
+  fill: none;
+}
+/*Main Container*/
+.main-container {
+  display: flex;
+  align-items: center;
+  padding: 100px 95px;
+  gap: 218px;
+}
+.main-titles > span {
+  font-family: mon;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.main-titles > h1 {
+  color: #282a30;
+  font-family: mon;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.main-titles > button {
+  color: black;
+  font-family: mon;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 240px;
+  height: 90px;
+  flex-shrink: 0;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+.main-imgs {
+  margin-left: 200px;
+}
+.main-titles > span:hover {
+  color: coral;
+}
+.main-titles > h1:hover {
+  color: cadetblue;
+}
+.main-titles > button:hover {
+  background-color: black;
+  color: white;
+  transition: all linear 2s;
+}
+.main-imgs > img:hover {
+  box-shadow: 10px 10px 10px black;
+  transition: all linear 0.5s;
+}
+.borders {
+  width: 1242px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #282a30;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.footer-container {
+  padding: 100px 95px;
+  display: flex;
+  align-items: center;
+  gap: 180px;
+}
+.discount > h1 {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: pop;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 31.2px */
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.discount > h1:hover {
+  color: red;
+}
+.discount > p {
+  color: rgba(40, 42, 48, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: mon;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.discount > p:hover {
+  color: green;
+}
+.our-services > h1 {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: pop;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 31.2px */
+  letter-spacing: 1px;
+  width: 200px;
+  cursor: pointer;
+}
+.our-services > h1:hover {
+  color: red;
+}
+.our-services > ul {
+  list-style: none;
+}
+.our-services > ul > li {
+  color: rgba(40, 42, 48, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: mon;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: 1px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.our-services > ul > li:hover {
+  color: cadetblue;
+}
+/**/
+.company > h1 {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: pop;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 31.2px */
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.company > h1:hover {
+  color: red;
+}
+.company > ul {
+  list-style: none;
+}
+.company > ul > li {
+  color: rgba(40, 42, 48, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: mon;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: 1px;
+  margin-top: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+.company > ul > li:hover {
+  color: cadetblue;
+}
+/**/
+.contact > h1 {
+  color: #282a30;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: pop;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 31.2px */
+  letter-spacing: 1px;
+  margin-left: -40px;
+  cursor: pointer;
+}
+.contact > h1:hover {
+  color: red;
+}
+.contact > ul {
+  list-style: none;
+}
+.contact > ul > li {
+  color: rgba(40, 42, 48, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: mon;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: 1px;
+  margin-top: 20px;
+  width: 100px;
+  margin-left: -70px;
+  cursor: pointer;
+}
+.contact > ul > li:hover {
+  color: cadetblue;
+}
+body {
+  overflow-x: hidden;
+}
